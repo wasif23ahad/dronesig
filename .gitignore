@@ -1,0 +1,55 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.seed_venv/
+.uv-cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# Runtime and generated data
+*.db
+*.db-*
+uploads/
+backend/uploads/
+backend/outputs/
+backend/*.db
+backend/*.db-*
+frontend/qa_artifacts/
+frontend/playwright-report/
+frontend/test-results/
+
+# Local assessment imagery should be supplied outside Git unless explicitly required.
+DJI_*.JPG
+DJI_*.jpg
+*.docx
+*.docx.sanitized
+
+# Logs and OS files
+*.log
+debug.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary audit/cache tooling
+.audit_tools/
+.audit_cache/
