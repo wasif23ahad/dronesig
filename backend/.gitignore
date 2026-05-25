@@ -1,0 +1,33 @@
+# Environment secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.seed_venv/
+.uv-cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime data (managed by Docker volumes)
+uploads/
+outputs/
+*.db
+*.db-*
+
+# Node
+node_modules/
+.next/
+
+# Temporary audit/cache tooling
+.audit_tools/
+.audit_cache/
+
+# Misc
+.DS_Store
+*.log
